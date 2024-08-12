@@ -1,0 +1,142 @@
+/* update.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+  }
+  
+  /* Container styling for the employee update page */
+  .employee-container {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Heading styling */
+  .employee-container h2 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+  }
+  
+  /* Table styling */
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-table th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f1c40f;
+  }
+  
+  /* Form styling */
+  .update-form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .update-form div {
+    margin-bottom: 20px;
+  }
+  
+  .update-form label {
+    display: block;
+    margin-bottom: 6px;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .update-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  .update-btn,
+  .delete-btn {
+    background-color: #27ae60;
+    border: none;
+    color: #fff;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .update-btn:hover,
+  .update-btn:focus {
+    background-color: #2ecc71;
+  }
+  
+  .update-btn:active {
+    background-color: #1e8449;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  .delete-btn:hover,
+  .delete-btn:focus {
+    background-color: #c0392b;
+  }
+  
+  .delete-btn:active {
+    background-color: #a93226;
+  }
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 40vw;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 5vw;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  

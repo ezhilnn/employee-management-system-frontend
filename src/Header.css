@@ -1,0 +1,26 @@
+.head-top {
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    width: 100vw;
+    height: 7vh;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.btns {
+    background-color: wheat;
+    color: black;
+    width: 5vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 4vh; /* Vertically center text */
+    margin-left: 1vw;
+    margin-right: 2vw; /* Add some space between buttons */
+    margin-top: 1.5vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
